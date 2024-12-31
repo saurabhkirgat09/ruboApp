@@ -21,3 +21,4 @@ public interface RideService {
 
     Page<Ride> getAllRidesOfDriver(Long driverId, PageRequest pageRequest);
 }
+
