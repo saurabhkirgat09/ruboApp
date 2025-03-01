@@ -6,7 +6,7 @@ import com.sksolutions.project.rubo.ruboApp.dto.UserDTO;
 
 public interface AuthService {
 
-    void login(String email, String password);
+    String login(String email, String password);
 
     UserDTO signup(SignupDTO signupDTO);
 
